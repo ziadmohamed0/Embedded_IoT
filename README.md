@@ -63,5 +63,3 @@ This repository contains a collection of projects related to embedded systems an
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to customize this `README.md` further to suit your needs. 
