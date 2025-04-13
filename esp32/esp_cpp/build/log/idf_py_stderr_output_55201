@@ -1,0 +1,31 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/ziad/.espressif/python_env/idf5.5_py3.10_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp
+CMake Error at /home/ziad/.espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "/home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Q4tim0'
+    
+    Run Build Command(s): /usr/bin/ninja -v cmTC_1e400
+    [1/2] /home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_1e400.dir/testCCompiler.c.obj -c /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Q4tim0/testCCompiler.c
+    [2/2] : && /home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles -L/snap/webots/27/usr/share/webots/lib/controller -lController CMakeFiles/cmTC_1e400.dir/testCCompiler.c.obj -o cmTC_1e400   && :
+    FAILED: cmTC_1e400 
+    : && /home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles -L/snap/webots/27/usr/share/webots/lib/controller -lController CMakeFiles/cmTC_1e400.dir/testCCompiler.c.obj -o cmTC_1e400   && :
+    /snap/webots/27/usr/share/webots/lib/controller/libController.so: file not recognized: file format not recognized
+    collect2: error: ld returned 1 exit status
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  /home/ziad/esp-idf/tools/cmake/project.cmake:589 (__project)
+  CMakeLists.txt:6 (project)
+
+

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/CMakeFiles/bootloader
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/CMakeFiles/bootloader.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/CMakeFiles/bootloader-complete.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

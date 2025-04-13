@@ -1,0 +1,12 @@
+Command: ninja all
+CMake Error at /home/ziad/esp-idf/tools/cmake/build.cmake:318 (message):
+  Failed to resolve component 'freeRtos' required by component 'core':
+  unknown name.
+Call Stack (most recent call first):
+  /home/ziad/esp-idf/tools/cmake/build.cmake:361 (__build_resolve_and_add_req)
+  /home/ziad/esp-idf/tools/cmake/build.cmake:666 (__build_expand_requirements)
+  /home/ziad/esp-idf/tools/cmake/project.cmake:735 (idf_build_process)
+  CMakeLists.txt:5 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

@@ -1,0 +1,18 @@
+Command: ninja all
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/ziad/Ziad_WS/Device_Driver/esp32/build/bootloader/esp-idf/esptool_py && /home/ziad/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ziad/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ziad/Ziad_WS/Device_Driver/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x6600 bytes. 0xa00 bytes (9%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/firstProject.c.obj
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable firstProject.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.9.dev6
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/ziad/Ziad_WS/Device_Driver/esp32/build/firstProject.bin
+[9/9] cd /home/ziad/Ziad_WS/Device_Driver/esp32/build/esp-idf/esptool_py && /home/ziad/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ziad/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ziad/Ziad_WS/Device_Driver/esp32/build/partition_table/partition-table.bin /home/ziad/Ziad_WS/Device_Driver/esp32/build/firstProject.bin
+firstProject.bin binary size 0x2c3e0 bytes. Smallest app partition is 0x100000 bytes. 0xd3c20 bytes (83%) free.

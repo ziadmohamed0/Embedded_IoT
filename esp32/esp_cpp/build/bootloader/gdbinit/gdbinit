@@ -1,0 +1,2 @@
+source /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader/gdbinit/symbols
+source /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader/gdbinit/connect

@@ -1,0 +1,9 @@
+{
+    "idf.pythonInstallPath": "/home/ziad/.espressif/python_env/idf5.5_py3.10_env/bin/python",
+    "files.associations": {
+        "gpio.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "freertosconfig.h": "c"
+    }
+}
