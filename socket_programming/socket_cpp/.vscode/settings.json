@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "atomic": "cpp",
+        "chrono": "cpp",
+        "cstdint": "cpp",
+        "random": "cpp",
+        "compare": "cpp",
+        "format": "cpp",
+        "iostream": "cpp"
+    }
+}
