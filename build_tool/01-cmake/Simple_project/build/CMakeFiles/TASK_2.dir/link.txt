@@ -1,0 +1,1 @@
+/usr/bin/c++ -I/snap/webots/27/usr/share/webots/include/controller/c -L/snap/webots/27/usr/share/webots/lib/controller -lController CMakeFiles/TASK_2.dir/main.cpp.o CMakeFiles/TASK_2.dir/Library/Books/books.cpp.o CMakeFiles/TASK_2.dir/Library/Magazines/Magazine.cpp.o -o TASK_2

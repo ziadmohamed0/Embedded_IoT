@@ -1,0 +1,3 @@
+/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-polymorphism/TASKS/Task_11_2/build/CMakeFiles/TASK_2.dir
+/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-polymorphism/TASKS/Task_11_2/build/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-polymorphism/TASKS/Task_11_2/build/CMakeFiles/rebuild_cache.dir
