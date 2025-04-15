@@ -1,0 +1,18 @@
+{
+    "configurations": [
+
+        {
+            "name": "BMS",
+            "includePath": [
+                "${workspaceFolder}/BMS/src/",
+                "${workspaceFolder}/BMS/inc/"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/g++"
+        }
+    ],
+    "version": 4
+}

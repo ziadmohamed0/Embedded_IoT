@@ -1,0 +1,5 @@
+/home/ziad/Ziad_WS/Embedded_Interns/Ziad_Studies/01-cmake/build/CMakeFiles/output_file.dir
+/home/ziad/Ziad_WS/Embedded_Interns/Ziad_Studies/01-cmake/build/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/Embedded_Interns/Ziad_Studies/01-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/ziad/Ziad_WS/Embedded_Interns/Ziad_Studies/01-cmake/build/inc/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/Embedded_Interns/Ziad_Studies/01-cmake/build/inc/CMakeFiles/rebuild_cache.dir
