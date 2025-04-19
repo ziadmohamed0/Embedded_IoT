@@ -83,4 +83,5 @@ $<TARGET_FILE:__idf_rt>
 $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_Gpio>
+$<TARGET_FILE:__idf_WiFi>
 $<TARGET_FILE:__idf_core>

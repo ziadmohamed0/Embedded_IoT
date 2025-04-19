@@ -1,7 +1,0 @@
-Command: ninja all
-[0/1] Re-running CMake...
--- Minimal build - OFF
--- Building ESP-IDF components for target esp32
--- Configuring incomplete, errors occurred!
-FAILED: build.ninja 
-/home/ziad/.espressif/tools/cmake/3.30.2/bin/cmake --regenerate-during-build -S/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver -B/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build

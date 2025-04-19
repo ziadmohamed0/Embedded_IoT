@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/ziad/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/home/ziad/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader"
-  "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix"
-  "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix/tmp"
-  "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix/src"
-  "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader"
+  "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix"
+  "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix/tmp"
+  "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix/src"
+  "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

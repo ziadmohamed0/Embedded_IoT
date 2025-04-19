@@ -1,2 +1,2 @@
-source /home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader/gdbinit/symbols
-source /home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/bootloader/gdbinit/connect
+source /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader/gdbinit/symbols
+source /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader/gdbinit/connect

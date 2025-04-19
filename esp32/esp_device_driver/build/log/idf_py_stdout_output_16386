@@ -1,0 +1,96 @@
+Command: ninja all
+[0/1] Re-running CMake...
+-- Minimal build - OFF
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "ESP_DRIVER" version: 8897aa8-dirty
+-- Adding linker script /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script /home/ziad/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-reent-funcs.ld
+-- Adding linker script /home/ziad/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: Gpio WiFi app_trace app_update bootloader bootloader_support bt cmock console core cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/Gpio /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi /home/ziad/esp-idf/components/app_trace /home/ziad/esp-idf/components/app_update /home/ziad/esp-idf/components/bootloader /home/ziad/esp-idf/components/bootloader_support /home/ziad/esp-idf/components/bt /home/ziad/esp-idf/components/cmock /home/ziad/esp-idf/components/console /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/core /home/ziad/esp-idf/components/cxx /home/ziad/esp-idf/components/driver /home/ziad/esp-idf/components/efuse /home/ziad/esp-idf/components/esp-tls /home/ziad/esp-idf/components/esp_adc /home/ziad/esp-idf/components/esp_app_format /home/ziad/esp-idf/components/esp_bootloader_format /home/ziad/esp-idf/components/esp_coex /home/ziad/esp-idf/components/esp_common /home/ziad/esp-idf/components/esp_driver_ana_cmpr /home/ziad/esp-idf/components/esp_driver_bitscrambler /home/ziad/esp-idf/components/esp_driver_cam /home/ziad/esp-idf/components/esp_driver_dac /home/ziad/esp-idf/components/esp_driver_gpio /home/ziad/esp-idf/components/esp_driver_gptimer /home/ziad/esp-idf/components/esp_driver_i2c /home/ziad/esp-idf/components/esp_driver_i2s /home/ziad/esp-idf/components/esp_driver_isp /home/ziad/esp-idf/components/esp_driver_jpeg /home/ziad/esp-idf/components/esp_driver_ledc /home/ziad/esp-idf/components/esp_driver_mcpwm /home/ziad/esp-idf/components/esp_driver_parlio /home/ziad/esp-idf/components/esp_driver_pcnt /home/ziad/esp-idf/components/esp_driver_ppa /home/ziad/esp-idf/components/esp_driver_rmt /home/ziad/esp-idf/components/esp_driver_sdio /home/ziad/esp-idf/components/esp_driver_sdm /home/ziad/esp-idf/components/esp_driver_sdmmc /home/ziad/esp-idf/components/esp_driver_sdspi /home/ziad/esp-idf/components/esp_driver_spi /home/ziad/esp-idf/components/esp_driver_touch_sens /home/ziad/esp-idf/components/esp_driver_tsens /home/ziad/esp-idf/components/esp_driver_uart /home/ziad/esp-idf/components/esp_driver_usb_serial_jtag /home/ziad/esp-idf/components/esp_eth /home/ziad/esp-idf/components/esp_event /home/ziad/esp-idf/components/esp_gdbstub /home/ziad/esp-idf/components/esp_hid /home/ziad/esp-idf/components/esp_http_client /home/ziad/esp-idf/components/esp_http_server /home/ziad/esp-idf/components/esp_https_ota /home/ziad/esp-idf/components/esp_https_server /home/ziad/esp-idf/components/esp_hw_support /home/ziad/esp-idf/components/esp_lcd /home/ziad/esp-idf/components/esp_local_ctrl /home/ziad/esp-idf/components/esp_mm /home/ziad/esp-idf/components/esp_netif /home/ziad/esp-idf/components/esp_netif_stack /home/ziad/esp-idf/components/esp_partition /home/ziad/esp-idf/components/esp_phy /home/ziad/esp-idf/components/esp_pm /home/ziad/esp-idf/components/esp_psram /home/ziad/esp-idf/components/esp_ringbuf /home/ziad/esp-idf/components/esp_rom /home/ziad/esp-idf/components/esp_security /home/ziad/esp-idf/components/esp_system /home/ziad/esp-idf/components/esp_timer /home/ziad/esp-idf/components/esp_vfs_console /home/ziad/esp-idf/components/esp_wifi /home/ziad/esp-idf/components/espcoredump /home/ziad/esp-idf/components/esptool_py /home/ziad/esp-idf/components/fatfs /home/ziad/esp-idf/components/freertos /home/ziad/esp-idf/components/hal /home/ziad/esp-idf/components/heap /home/ziad/esp-idf/components/http_parser /home/ziad/esp-idf/components/idf_test /home/ziad/esp-idf/components/ieee802154 /home/ziad/esp-idf/components/json /home/ziad/esp-idf/components/log /home/ziad/esp-idf/components/lwip /home/ziad/esp-idf/components/mbedtls /home/ziad/esp-idf/components/mqtt /home/ziad/esp-idf/components/newlib /home/ziad/esp-idf/components/nvs_flash /home/ziad/esp-idf/components/nvs_sec_provider /home/ziad/esp-idf/components/openthread /home/ziad/esp-idf/components/partition_table /home/ziad/esp-idf/components/perfmon /home/ziad/esp-idf/components/protobuf-c /home/ziad/esp-idf/components/protocomm /home/ziad/esp-idf/components/pthread /home/ziad/esp-idf/components/rt /home/ziad/esp-idf/components/sdmmc /home/ziad/esp-idf/components/soc /home/ziad/esp-idf/components/spi_flash /home/ziad/esp-idf/components/spiffs /home/ziad/esp-idf/components/tcp_transport /home/ziad/esp-idf/components/ulp /home/ziad/esp-idf/components/unity /home/ziad/esp-idf/components/usb /home/ziad/esp-idf/components/vfs /home/ziad/esp-idf/components/wear_levelling /home/ziad/esp-idf/components/wifi_provisioning /home/ziad/esp-idf/components/wpa_supplicant /home/ziad/esp-idf/components/xtensa
+-- Configuring done (6.6s)
+-- Generating done (1.0s)
+-- Build files have been written to: /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build
+[1/13] Performing build step for 'bootloader'
+[1/1] cd /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader/esp-idf/esptool_py && /home/ziad/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ziad/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/bootloader/bootloader.bin
+Bootloader binary size 0x6600 bytes. 0xa00 bytes (9%) free.
+[2/13] No install step for 'bootloader'
+[3/13] Completed 'bootloader'
+[4/13] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/main.cpp.obj
+[5/13] Building CXX object esp-idf/WiFi/CMakeFiles/__idf_WiFi.dir/WiFi.cpp.obj
+FAILED: esp-idf/WiFi/CMakeFiles/__idf_WiFi.dir/WiFi.cpp.obj 
+/home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -DESP_PLATFORM -DIDF_VER=\"c5865270\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/config -I/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi -I/home/ziad/esp-idf/components/newlib/platform_include -I/home/ziad/esp-idf/components/freertos/config/include -I/home/ziad/esp-idf/components/freertos/config/include/freertos -I/home/ziad/esp-idf/components/freertos/config/xtensa/include -I/home/ziad/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/ziad/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/ziad/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/home/ziad/esp-idf/components/freertos/esp_additions/include -I/home/ziad/esp-idf/components/esp_hw_support/include -I/home/ziad/esp-idf/components/esp_hw_support/include/soc -I/home/ziad/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/ziad/esp-idf/components/esp_hw_support/dma/include -I/home/ziad/esp-idf/components/esp_hw_support/ldo/include -I/home/ziad/esp-idf/components/esp_hw_support/debug_probe/include -I/home/ziad/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/ziad/esp-idf/components/esp_hw_support/power_supply/include -I/home/ziad/esp-idf/components/esp_hw_support/port/esp32/. -I/home/ziad/esp-idf/components/esp_hw_support/port/esp32/include -I/home/ziad/esp-idf/components/heap/include -I/home/ziad/esp-idf/components/heap/tlsf -I/home/ziad/esp-idf/components/log/include -I/home/ziad/esp-idf/components/soc/include -I/home/ziad/esp-idf/components/soc/esp32 -I/home/ziad/esp-idf/components/soc/esp32/include -I/home/ziad/esp-idf/components/soc/esp32/register -I/home/ziad/esp-idf/components/hal/platform_port/include -I/home/ziad/esp-idf/components/hal/esp32/include -I/home/ziad/esp-idf/components/hal/include -I/home/ziad/esp-idf/components/esp_rom/include -I/home/ziad/esp-idf/components/esp_rom/esp32/include -I/home/ziad/esp-idf/components/esp_rom/esp32/include/esp32 -I/home/ziad/esp-idf/components/esp_rom/esp32 -I/home/ziad/esp-idf/components/esp_common/include -I/home/ziad/esp-idf/components/esp_system/include -I/home/ziad/esp-idf/components/esp_system/port/soc -I/home/ziad/esp-idf/components/esp_system/port/include/private -I/home/ziad/esp-idf/components/xtensa/esp32/include -I/home/ziad/esp-idf/components/xtensa/include -I/home/ziad/esp-idf/components/xtensa/deprecated_include -I/home/ziad/esp-idf/components/lwip/include -I/home/ziad/esp-idf/components/lwip/include/apps -I/home/ziad/esp-idf/components/lwip/include/apps/sntp -I/home/ziad/esp-idf/components/lwip/lwip/src/include -I/home/ziad/esp-idf/components/lwip/port/include -I/home/ziad/esp-idf/components/lwip/port/freertos/include -I/home/ziad/esp-idf/components/lwip/port/esp32xx/include -I/home/ziad/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/ziad/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/ziad/esp-idf/components/esp_wifi/include -I/home/ziad/esp-idf/components/esp_wifi/include/local -I/home/ziad/esp-idf/components/esp_wifi/wifi_apps/include -I/home/ziad/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/ziad/esp-idf/components/esp_event/include -I/home/ziad/esp-idf/components/esp_phy/include -I/home/ziad/esp-idf/components/esp_phy/esp32/include -I/home/ziad/esp-idf/components/esp_netif/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -std=gnu++17 -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver=. -fmacro-prefix-map=/home/ziad/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++2b -fno-exceptions -fno-rtti -fuse-cxa-atexit -MD -MT esp-idf/WiFi/CMakeFiles/__idf_WiFi.dir/WiFi.cpp.obj -MF esp-idf/WiFi/CMakeFiles/__idf_WiFi.dir/WiFi.cpp.obj.d -o esp-idf/WiFi/CMakeFiles/__idf_WiFi.dir/WiFi.cpp.obj -c /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp: In member function 'esp_err_t WiFi::WiFi::_get_mac()':
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:58: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                       ~~~^
+      |                                                          |
+      |                                                          unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:62: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                           ~~~^
+      |                                                              |
+      |                                                              unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:66: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                               ~~~^
+      |                                                                  |
+      |                                                                  unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:70: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                                   ~~~^
+      |                                                                      |
+      |                                                                      unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:74: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                                       ~~~^
+      |                                                                          |
+      |                                                                          unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:78: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                                           ~~~^
+      |                                                                              |
+      |                                                                              unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:82: error: format '%X' expects a matching 'unsigned int' argument [-Werror=format=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                                               ~~~^
+      |                                                                                  |
+      |                                                                                  unsigned int
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:20:26: error: statement has no effect [-Werror=unused-value]
+   20 |         mac_byte_buffer[0];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:21:26: error: statement has no effect [-Werror=unused-value]
+   21 |         mac_byte_buffer[1];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:22:26: error: statement has no effect [-Werror=unused-value]
+   22 |         mac_byte_buffer[2];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:23:26: error: statement has no effect [-Werror=unused-value]
+   23 |         mac_byte_buffer[3];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:24:26: error: statement has no effect [-Werror=unused-value]
+   24 |         mac_byte_buffer[4];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:25:26: error: statement has no effect [-Werror=unused-value]
+   25 |         mac_byte_buffer[5];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:26:26: error: statement has no effect [-Werror=unused-value]
+   26 |         mac_byte_buffer[6];
+      |         ~~~~~~~~~~~~~~~~~^
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:79: error: '%02X' directive output truncated writing between 2 and 8 bytes into a region of size between 0 and 1 [-Werror=format-truncation=]
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |                                                                               ^~~~
+/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/WiFi/WiFi.cpp:19:17: note: 'snprintf' output between 15 and 57 bytes into a destination of size 13
+   19 |         snprintf(mac_add_cstr, sizeof(mac_add_cstr), "%02X%02X%02X%02X%02X%02X%02X");
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1plus: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

@@ -108,7 +108,6 @@ namespace GPIO {
 			 */
 			bool state(void) { return status; }
 	};
-
 }
 
 #endif  // _APPLICATION_GPIO_H_

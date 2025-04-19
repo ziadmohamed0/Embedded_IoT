@@ -1821,6 +1821,25 @@ rule C_STATIC_LIBRARY_LINKER____idf_Gpio_
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER____idf_WiFi_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER____idf_WiFi_
+  command = $PRE_LINK && /home/ziad/.espressif/tools/cmake/3.30.2/bin/cmake -E rm -f $TARGET_FILE && /home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/ziad/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER____idf_core_unscanned_
   depfile = $DEP_FILE
   deps = gcc
@@ -1841,7 +1860,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_core_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/ziad/.espressif/tools/cmake/3.30.2/bin/cmake --regenerate-during-build -S/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver -B/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build
+  command = /home/ziad/.espressif/tools/cmake/3.30.2/bin/cmake --regenerate-during-build -S/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver -B/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build
   description = Re-running CMake...
   generator = 1
 

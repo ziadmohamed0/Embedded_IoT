@@ -1,4 +1,4 @@
-# Install script for directory: /home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/application/Gpio
+# Install script for directory: /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/application/Gpio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

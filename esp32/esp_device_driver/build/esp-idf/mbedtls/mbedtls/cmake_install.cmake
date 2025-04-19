@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("/home/ziad/Ziad_WS/Device_Driver/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_device_driver/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 
