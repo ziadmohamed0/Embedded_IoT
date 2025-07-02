@@ -1,4 +1,4 @@
-/* * Data converted from /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_cpp/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

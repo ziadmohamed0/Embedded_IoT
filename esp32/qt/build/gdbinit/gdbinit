@@ -1,0 +1,2 @@
+source /home/ziad/Ziad_WS/Embedded_IoT/esp32/qt/build/gdbinit/symbols
+source /home/ziad/Ziad_WS/Embedded_IoT/esp32/qt/build/gdbinit/connect

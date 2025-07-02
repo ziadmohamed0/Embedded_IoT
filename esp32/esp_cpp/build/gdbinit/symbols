@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/bootloader/bootloader.elf
+    add-symbol-file /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_cpp/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/build/CPP_ESP.elf
+file /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_cpp/build/CPP_ESP.elf

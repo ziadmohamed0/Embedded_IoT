@@ -1,4 +1,4 @@
-# Install script for directory: /home/ziad/Ziad_WS/Device_Driver/esp32/esp_cpp/core
+# Install script for directory: /home/ziad/Ziad_WS/Embedded_IoT/esp32/esp_cpp/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
