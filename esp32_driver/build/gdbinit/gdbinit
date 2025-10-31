@@ -1,0 +1,2 @@
+source /home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/gdbinit/symbols
+source /home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/gdbinit/connect

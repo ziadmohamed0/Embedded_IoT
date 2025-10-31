@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/esp/esp-idf/components/",
+                "~/esp/esp-idf/components/esp_common/include/",
+                "~/esp/esp-idf/components/esp_driver_ledc/include/driver/",
+                "~/esp/esp-idf/components/esp_netif/include/",
+                "~/esp/esp-idf/components/esp_event/include/",
+                "~/esp/esp-idf/components/esp_system/include/",
+                "~/esp/esp-idf/components/nvs_flash/include/",
+                "~/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/",
+                "~/esp/esp-idf/components/esp_driver_gpio/include/",
+                "~/esp/esp-idf/components/esp_driver_dac/include/",
+                "~/esp/esp-idf/components/esp_driver_uart/include/",
+                "~/esp/esp-idf/components/esp_driver_i2c/include/driver/",
+                "~/esp/esp-idf/components/esp_driver_gptimer/include/driver/",
+                "~/esp/esp-idf/components/esp_timer/include/",
+                "~/esp/esp-idf/components/wifi_provisioning/include/wifi_provisioning/",
+                "~/esp/esp-idf/components/esp_wifi/include/",
+                "/usr/include/c++/11/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

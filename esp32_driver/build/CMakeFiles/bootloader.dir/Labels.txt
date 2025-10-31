@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/CMakeFiles/bootloader
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/CMakeFiles/bootloader.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/CMakeFiles/bootloader-complete.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/ziad/ziad_ws/sarcoos_project/code/esp32_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
