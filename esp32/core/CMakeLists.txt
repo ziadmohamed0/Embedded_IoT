@@ -1,0 +1,34 @@
+idf_component_register(
+    SRCS 
+        "src/app/main.cpp"
+        "src/components/gpio/gpio.cpp"
+        "src/components/nvs/nvs.cpp"
+        "src/components/wifi/wifi.cpp"
+        "src/components/uart/uart.cpp"
+        "src/components/wifi/sta_mode.cpp"
+        "src/components/wifi/ap_mode.cpp"
+        "src/components/wifi/sta_ap_mode.cpp"
+        "src/components/http/http_server.cpp"
+        "src/components/http/http_client.cpp"
+        "src/components/mqtt/mqtt.cpp"
+    INCLUDE_DIRS 
+        "inc/components" 
+        "inc/app"
+    REQUIRES 
+        esp_driver_gpio
+        esp_driver_uart
+        esp_adc
+        esp_driver_mcpwm
+        esp_driver_ledc
+        esp_driver_i2c
+        esp_wifi
+        esp_event
+        esp_timer
+        esp_netif
+        driver
+        espressif__mqtt
+        nvs_flash
+        freertos
+        esp_http_client     
+        esp_http_server     
+)
