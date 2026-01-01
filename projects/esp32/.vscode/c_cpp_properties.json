@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/core/inc/components/mcal/**",
+                "${workspaceFolder}/core/inc/components/hall/**",
+                "/usr/include/c++/11/",
+                "~/esp/esp-idf/components/",
+                "~/esp/esp-idf/components/esp_driver_gpio/include/driver/",
+                "~/esp/esp-idf/components/nvs_flash/include/",
+                "~/esp/esp-idf/components/esp_wifi/include/",
+                "~/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/",
+                "~/esp/esp-idf/components/esp_http_server/include/",
+                "~/esp/esp-idf/components/esp_https_server/include/",
+                "~/esp/esp-idf/components/esp_http_client/include/",
+                "~/esp/esp-idf/components/esp_https_ota/include/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

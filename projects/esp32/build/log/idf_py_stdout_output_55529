@@ -1,0 +1,6 @@
+Command: ninja all
+[1/4] cd /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build && /home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/ziad/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/partition_table/partition-table.bin /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/esp32.bin
+esp32.bin binary size 0xdd1d0 bytes. Smallest app partition is 0x100000 bytes. 0x22e30 bytes (14%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/bootloader && /home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/ziad/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x66b0 bytes. 0x950 bytes (8%) free.

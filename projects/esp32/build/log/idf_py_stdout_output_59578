@@ -1,0 +1,24 @@
+Command: ninja all
+[1/17] Performing build step for 'bootloader'
+[1/1] cd /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/bootloader && /home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/ziad/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x66b0 bytes. 0x950 bytes (8%) free.
+[2/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/relay/relay.cpp.obj
+[3/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/led/led.cpp.obj
+[4/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/button/button.cpp.obj
+[5/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/app/main.cpp.obj
+[6/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/ir_sensor/ir_sensor.cpp.obj
+[7/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/mcal/mqtt/mqtt.cpp.obj
+[8/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/dc_motor/l298.cpp.obj
+[9/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/ultrasonic/ultrasonic.cpp.obj
+[10/15] Building CXX object esp-idf/core/CMakeFiles/__idf_core.dir/src/components/hall/mpu6050/mpu6050.cpp.obj
+[11/15] Linking C static library esp-idf/core/libcore.a
+[12/15] Generating esp-idf/esp_system/ld/sections.ld
+[13/15] Linking CXX executable esp32.elf
+[14/15] Generating binary image from built executable
+esptool v5.2.dev1
+Creating ESP32 image...
+Merged 2 ELF sections.
+Successfully created ESP32 image.
+Generated /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/esp32.bin
+[15/15] cd /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build && /home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/ziad/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/partition_table/partition-table.bin /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/esp32.bin
+esp32.bin binary size 0xdcd30 bytes. Smallest app partition is 0x100000 bytes. 0x232d0 bytes (14%) free.

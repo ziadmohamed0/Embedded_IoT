@@ -1,0 +1,126 @@
+Command: /home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/ziad/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/esp32.elf /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/bootloader/bootloader.elf -m '/home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python' '/home/ziad/esp/esp-idf/tools/idf.py'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6376
+load:0x40078000,len:15900
+ho 0 tail 12 room 4
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (29) boot: ESP-IDF v6.0-beta1-567-gdaa1d34909-dirt 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  1 2026 01:01:33[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.1[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1f568h (128360) map[0m
+[0;32mI (136) esp_image: segment 1: paddr=0002f590 vaddr=3ffb0000 size=00a88h (  2696) load[0m
+[0;32mI (137) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=a2cach (666796) map[0m
+[0;32mI (377) esp_image: segment 3: paddr=000d2cd4 vaddr=3ffb0a88 size=036ech ( 14060) load[0m
+[0;32mI (383) esp_image: segment 4: paddr=000d63c8 vaddr=40080000 size=15660h ( 87648) load[0m
+[0;32mI (419) esp_image: segment 5: paddr=000eba30 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (430) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (430) boot: Disabling RNG early entropy source...[0m
+[0;32mI (441) cpu_start: Multicore app[0m
+[0;32mI (449) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (449) cpu_start: Pro cpu start user code[0m
+[0;32mI (449) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (451) app_init: Application information:[0m
+[0;32mI (455) app_init: Project name:     esp32[0m
+[0;32mI (458) app_init: App version:      a333ceb[0m
+[0;32mI (462) app_init: Compile time:     Jan  1 2026 01:02:28[0m
+[0;32mI (467) app_init: ELF file SHA256:  27e11884e...[0m
+[0;32mI (472) app_init: ESP-IDF:          v6.0-beta1-567-gdaa1d34909-dirt[0m
+[0;32mI (478) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (482) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (486) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (496) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (501) heap_init: At 3FFB8DA8 len 00027258 (156 KiB): DRAM[0m
+[0;32mI (506) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (511) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 40095660 len 0000A9A0 (42 KiB): IRAM[0m
+[0;33mW (524) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (535) spi_flash: detected chip: generic[0m
+[0;32mI (539) spi_flash: flash io: dio[0m
+[0;33mW (542) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (556) main_task: Started on CPU0[0m
+[0;32mI (566) main_task: Calling app_main()[0m
+[0;32mI (616) wifi:wifi driver task: 3ffc0ed0, prio:23, stack:6656, core=0[0m
+[0;32mI (636) wifi:wifi firmware version: dfff79f[0m
+[0;32mI (636) wifi:wifi certification version: v7.0[0m
+[0;32mI (636) wifi:config NVS flash: enabled[0m
+[0;32mI (636) wifi:config nano formatting: disabled[0m
+[0;32mI (636) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (646) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (646) wifi:Init management short buffer num: 32[0m
+[0;32mI (646) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (656) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (656) wifi:Init static rx buffer num: 10[0m
+[0;32mI (666) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (666) wifi_init: rx ba win: 6[0m
+[0;32mI (666) wifi_init: accept mbox: 6[0m
+[0;32mI (676) wifi_init: tcpip mbox: 32[0m
+[0;32mI (676) wifi_init: udp mbox: 6[0m
+[0;32mI (676) wifi_init: tcp mbox: 6[0m
+[0;32mI (676) wifi_init: tcp tx win: 5760[0m
+[0;32mI (686) wifi_init: tcp rx win: 5760[0m
+[0;32mI (686) wifi_init: tcp mss: 1440[0m
+[0;32mI (686) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (696) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (696) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (706) WIFI_STA: Initialized with SSID: Mohamed Fathy[0m
+[0;32mI (716) phy_init: phy_version 4863,a3a4459,Oct 28 2025,14:30:06[0m
+�r����n d�t� du� to �hecksum �ailure or outdated calibration data, mode(0)
+[0;32mI (876) wifi:mode : sta (ac:15:18:d5:24:78)[0m
+[0;32mI (876) wifi:enable tsf[0m
+[0;32mI (886) wifi:new:<1,0>, old:<1	��:<255,�'	���:<1,0>	�י:1, snd_ch_cfg:0x0[0m
+I�+	�.6��ѴXW: init -> auth (0xj
+[0;32mI (896) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (896) wifi:state: assoc -> run (0x10)[0m
+I �$	����:��-add>idx:0 (ifx:0, dc:99:14:53:c3:04), tid:0, ssn:0, winSize:64
+[0;32mI (936) wifi:connected with Mohamed Fathy, aid = 4, channel 1, BW20, bssid = dc:99:14:53:c3:04[0m
+[0;32mI (936) wifi:security: WPA2-PSK, phy: bgn, rssi: -48[0m
+[0;32mI (946) wifi:pm start, type: 1[0m
+
+[0;32mI (946) w:&��� 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1026) wifi:AP's beacon interval = 100352 us, DTIM period = 1[0m
+[0;32mI (4056) esp_netif_handlers: sta ip: 192.168.100.91, mask: 255.255.255.0, gw: 192.168.100.1[0m
+[0;32mI (4056) WIFI_STA: IP: 192.168.100.91[0m
+[0;32mI (4056) WIFI_STA: Connected successfully.[0m
+[0;32mI (5056) MQTT_CLIENT: MQTT Client created[0m
+[0;32mI (5056) MQTT_CLIENT: MQTT Client initialized with brokj���://192.168.100.25[0m
+[0;32mI (5066) MQTT_CLIENT: Connecting to MQTT broker...[0m
+[0;32mI (5066) main_task: Returned from app_main()[0m
+[0;32mI (5596) MQTT_CLIENT: Connected to MQTT broker[0m
+[0;32mI (6066) MQTT_CVE�Published to '/factory/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":43,"speed":8}
+[0;32mI (7066) MQTT_CLIENT: Published to '/factory/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":43Iڕ��":8}
+[0;32mI (8066) MQ�%9Q: Published to '/factory/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":43,"speed":8}
+[0;32mI (9066) MQTT_CL�)J�Published to '/factory/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":53,"speed":8}
+[0;32mI (10066) MQTT_CLIENT: Published to '/factory/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":90,"speed":8}
+o '/factory/sensors' (msg_id=0)
+MQTT Sent: {"dist":87,"speed":10}
+[0;32mI (12066) MQTT_CLIENT: Published to '/factory/sensorsj͝},V�Jj[0m
+MQTT Sent: {"dist":90,"speed":31}
+[0;32mI (13066) MQTT_CLIENT: Published to '/factory/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":90,"speed":61}
+[0;32mI (14066) MQTT_CLIENT: Publish)���2��ѽ��/sensors' (msg_id=0)[0m
+MQTT Sent: {"dist":89,"speed":61}
+[0;32mI (15066) MQTT_CLIENT: Published to '/factory/sen��%�' (msg_id=0)[0m
+MQTT Sent: {"dist":89,"speed":61}

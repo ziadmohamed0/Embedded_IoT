@@ -1,0 +1,49 @@
+idf_component_register(
+    SRCS 
+        "src/app/main.cpp"
+        
+        "src/components/mcal/gpio/gpio.cpp"
+        "src/components/mcal/nvs/nvs.cpp"
+        "src/components/mcal/wifi/wifi.cpp"
+        "src/components/mcal/uart/uart.cpp"
+        "src/components/mcal/adc/adc.cpp"
+        "src/components/mcal/wifi/sta_mode.cpp"
+        "src/components/mcal/wifi/ap_mode.cpp"
+        "src/components/mcal/wifi/sta_ap_mode.cpp"
+        "src/components/mcal/http/http_server.cpp"
+        "src/components/mcal/http/http_client.cpp"
+        "src/components/mcal/mqtt/mqtt.cpp"
+        "src/components/mcal/pwm/pwm.cpp"
+        "src/components/mcal/i2c/i2c.cpp"
+
+        "src/components/hall/button/button.cpp"
+        "src/components/hall/ir_sensor/ir_sensor.cpp"
+        "src/components/hall/led/led.cpp"
+        "src/components/hall/mpu6050/mpu6050.cpp"
+        "src/components/hall/relay/relay.cpp"
+        "src/components/hall/dc_motor/l298.cpp"
+        "src/components/hall/ultrasonic/ultrasonic.cpp"
+        "src/components/hall/potentiometer/potentiometer.cpp"
+    INCLUDE_DIRS 
+        "inc/components/mcal/" 
+        "inc/components/hall/" 
+        "inc/components/" 
+        "inc/app"
+    REQUIRES 
+        esp_driver_gpio
+        esp_driver_uart
+        esp_adc
+        esp_driver_mcpwm
+        esp_driver_ledc
+        esp_driver_i2c
+        esp_wifi
+        esp_event
+        esp_timer
+        esp_netif
+        driver
+        espressif__mqtt
+        nvs_flash
+        freertos
+        esp_http_client     
+        esp_http_server     
+)

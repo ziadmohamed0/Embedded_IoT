@@ -1,0 +1,17 @@
+02:11:31 **** Incremental Build of configuration Debug for project stm32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "stm32.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ziad/ziad_ws/Embedded_IoT/projects/stm32/STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: stm32.elf
+ 
+arm-none-eabi-size   stm32.elf 
+arm-none-eabi-objdump -h -S  stm32.elf  > "stm32.list"
+   text	   data	    bss	    dec	    hex	filename
+  24240	     24	  20488	  44752	   aed0	stm32.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32.list
+ 
+
+02:11:33 Build Finished. 0 errors, 0 warnings. (took 1s.490ms)
+

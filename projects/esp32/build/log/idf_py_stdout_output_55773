@@ -1,0 +1,216 @@
+Command: /home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/ziad/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/esp32.elf /home/ziad/ziad_ws/Embedded_IoT/projects/esp32/build/bootloader/bootloader.elf -m '/home/ziad/.espressif/python_env/idf6.0_py3.10_env/bin/python' '/home/ziad/esp/esp-idf/tools/idf.py'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6376
+load:0x40078000,len:15900
+ho 0 tail 12 room 4
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (29) boot: ESP-IDF v6.0-beta1-567-gdaa1d34909-dirt 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  1 2026 01:01:33[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.1[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=20004h (131076) map[0m
+[0;32mI (137) esp_image: segment 1: paddr=0003002c vaddr=3ffb0000 size=04174h ( 16756) load[0m
+[0;32mI (144) esp_image: segment 2: paddr=000341a8 vaddr=40080000 size=0be70h ( 48752) load[0m
+[0;32mI (164) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=a3958h (670040) map[0m
+[0;32mI (403) esp_image: segment 4: paddr=000e3980 vaddr=4008be70 size=09850h ( 38992) load[0m
+[0;32mI (419) esp_image: segment 5: paddr=000ed1d8 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (430) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (430) boot: Disabling RNG early entropy source...[0m
+[0;32mI (440) cpu_start: Multicore app[0m
+[0;32mI (449) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (449) cpu_start: Pro cpu start user code[0m
+[0;32mI (449) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (451) app_init: Application information:[0m
+[0;32mI (455) app_init: Project name:     esp32[0m
+[0;32mI (458) app_init: App version:      a333ceb[0m
+[0;32mI (462) app_init: Compile time:     Jan  1 2026 01:02:28[0m
+[0;32mI (467) app_init: ELF file SHA256:  e744780aa...[0m
+[0;32mI (472) app_init: ESP-IDF:          v6.0-beta1-567-gdaa1d34909-dirt[0m
+[0;32mI (478) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (481) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (485) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (489) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (496) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (501) heap_init: At 3FFB8DB0 len 00027250 (156 KiB): DRAM[0m
+[0;32mI (506) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (511) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 400956C0 len 0000A940 (42 KiB): IRAM[0m
+[0;33mW (524) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (535) spi_flash: detected chip: generic[0m
+[0;32mI (539) spi_flash: flash io: dio[0m
+[0;33mW (542) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (555) main_task: Started on CPU0[0m
+[0;32mI (565) main_task: Calling app_main()[0m
+[0;32mI (615) wifi:wifi driver task: 3ffc0ed8, prio:23, stack:6656, core=0[0m
+[0;32mI (635) wifi:wifi firmware version: dfff79f[0m
+[0;32mI (635) wifi:wifi certification version: v7.0[0m
+[0;32mI (635) wifi:config NVS flash: enabled[0m
+[0;32mI (635) wifi:config nano formatting: disabled[0m
+[0;32mI (635) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (645) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (645) wifi:Init management short buffer num: 32[0m
+[0;32mI (655) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (655) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (655) wifi:Init static rx buffer num: 10[0m
+[0;32mI (665) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (665) wifi_init: rx ba win: 6[0m
+[0;32mI (665) wifi_init: accept mbox: 6[0m
+[0;32mI (675) wifi_init: tcpip mbox: 32[0m
+[0;32mI (675) wifi_init: udp mbox: 6[0m
+[0;32mI (675) wifi_init: tcp mbox: 6[0m
+[0;32mI (685) wifi_init: tcp tx win: 5760[0m
+[0;32mI (685) wifi_init: tcp rx win: 5760[0m
+[0;32mI (685) wifi_init: tcp mss: 1440[0m
+[0;32mI (695) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (695) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (695) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (705) WIFI_STA: Initialized with SSID: Mohamed Fathy[0m
+[0;32mI (715) phy_init: phy_version 4863,a3a4459,Oct 28 2025,14:30:06[0m
+�`h795i`�h���n�t: �a�i�g ne� cal�bra��on data d�e to checksum failure or outdated calibration data, mode(0)
+[0;32mI (885) wifi:mode : sta (ac:15:18:d5:24:78)[0m
+[0;32mI (885) wifi:enable tsf[0m
+	�t<255,255>, s'i1	�ɽ�:1, sn�5%
+-B�0)
+[0;32mI (905) wifi:Wѕ: auth -> assoc (0x0)[0m
+[0;32mI (915) wifi:state: assoc -> run (0x10)[0m
+*ʒ�J����:<5(yZ:0 (ifx:0, dc:99:14:53:c3:04), tid:0, ssn:0, winSize:64
+[0;32mI (945) wifi:connected with Mohamed Fathy, aid = 4, channel 1, BW20, bssid = dc:99:14:53:c3:04[0m
+[0;32mI (945) wifi:security: WPA2-PSK, phy: bgn, rssi: -59[0m
+[0;32mI (945) wifi:pm start, type: 1[0m
+
+[0;32mI (945) wifi:dp: 1, bi: 100352, li: 3, scale listen inY�72��� 307200 us to 301056 us[0m
+[0;32mI (985) wifi:AP's beacon interval = 100352 us, DTIM period = 1[0m
+ ip: 192.168.100.91, mask: 255.255.255.0, gw: 192.168.100.1
+[0;32mI (4105) WIFI_STA: IP: 192.168.100.91[0m
+[0;32mI (4105) WIFI_STA: Connected successfully.[0m
+[0;32mI (5105) MQTT_CLIENT: MQTT Client created[0m
+[0;33mW (5105) mqtt_client: SSL related configs set, but the URI scheme specifies a non-SSL scheme, scheme = mqtt[0m
+[1;31mE (5105) MQTT_CLIENT: Failed to initialize MQTT client[0m
+[1;31mE (5105) MQTT_CLIENT: MQTT client not initialized[0m
+[0;32mI (5115) ULTRASONIC_DRIVER: Ultrasonic sensor initialized successfully.[0m
+[0;33mW (5145) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;32mI (5155) main_task: Returned from app_main()[0m
+[0;33mW (5375) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (5605) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (5835) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (6065) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (6295) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (6525) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (6755) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (6985) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (7215) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (7445) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (7675) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (7905) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (8135) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (8365) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (8595) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (8825) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (9055) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (9285) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (9515) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (9745) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (9975) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (10205) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (10435) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (10665) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (10895) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (11125) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (11355) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (11585) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (11815) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (12045) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (12275) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (12505) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (12735) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (12965) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (13195) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (13425) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (13655) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (13885) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (14115) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (14345) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (14575) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (14805) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (15035) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (15265) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (15495) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (15725) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (15955) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (16185) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (16415) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (16645) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (16875) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (17105) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (17335) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (17565) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (17795) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (18025) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (18255) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (18485) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (18715) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (18945) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (19175) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (19405) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (19635) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (19865) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (20095) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (20325) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (20555) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (20785) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (21015) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (21245) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (21475) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (21705) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (21935) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (22165) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (22395) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (22625) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (22855) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (23085) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (23315) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (23545) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (23775) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (24005) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (24235) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (24465) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (24695) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+[0;33mW (24925) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
+Waiting for MQTT connection...
+[0;33mW (25155) ULTRASONIC_DRIVER: Echo wait timeout! Check connections.[0m
